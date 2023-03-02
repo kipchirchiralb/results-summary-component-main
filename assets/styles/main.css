@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "My Font";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "My Font", sans-serif;
+}
+
+.intro {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsla(234, 85%, 45%, 0.8)
+  );
+
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 30px 30px;
+}
+.intro h1 {
+  opacity: 0.7;
+}
+.rounded-bg {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+
+  background-color: hsl(0, 0%, 0%);
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.rounded-bg p:first-child {
+  font-size: 50px;
+  font-weight: bold;
+}
+.rounded-bg p:last-child {
+  opacity: 0.8;
+}
+.intro-text {
+  opacity: 0.8;
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* summary section */
+
+.summary {
+  padding: 50px 30px;
+}
+.summary h1 {
+  color: hsl(224, 30%, 27%);
+}
+
+.category {
+  border-top: 1px solid red;
+  margin: 10px 3px;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 18px;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 30px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255));
+}
